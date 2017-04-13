@@ -1,4 +1,10 @@
-# Feladatok
+# Requirements
+
+A programkód legyen (megjegyzésekkel, üres sorokkal, tabulátorral) jól tagolt, tükrözze az absztrakt program szerkezetét, amelyet programozási tételre visszavezetve kell elkészíteni. A program működése legyen öndokumentáló (derüljön ki a futtatás alatt, hogy mi a feladat, milyen feltételeknek megfelelő adatokat vár a felhasználótól, és az eredmény jól értelmezhetően jelenjen meg.)  Forrásprogramját projektbe ágyazza bele! Fájlból olvasott bemenő adatok esetén az adatokat írja ki a konzolablakba! Csak az adatellenőrzéshez és a program ismételhető futtatásához használhat do-while()utasítást! Ha tömböt használ, akkor annak típusát vector-ként adja meg! Tagolja kódját alprogramok segítségével.
+
+Minden olyan kódrészt, amely egy programozási tételből származik, kerüljön külön alprogramba. Váljon ketté az alprogramok deklarációja és definíciója. Kommentezze az alprogramokat a kódban (milyen részfeladatot old meg, melyek a bemenő adatai, melyek kimenő adatai). Készítsen automatikus egységtesztet minden olyan alprogramhoz, amelyik a feladat elvi megoldásában megjelenő valamelyik programozási tételre épül.
+
+# Tasks
 Az alábbi feladatokat több programozási tételre kell visszavezetni.
 1. Egy kutya kiállításon n kategóriában m kutya vesz részt. Minden kutya minden
 kategóriában egy 0 és 10 közötti pontszámot kap. Hány kutya indult minden
