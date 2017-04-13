@@ -1,4 +1,5 @@
-﻿/*#define CATCH_CONFIG_MAIN
+﻿/*#define CATCH_CONFIG_MAIN 
+//Azért van kikommentezve az egész, mivel ha CodeBlocks-ba fordítjuk ez a sor belerakja egy main() függvényt ami lefuttatja a teszteket, de mivel már van a main.cpp-be egy main függvény a CodeBlocks sírni fog, ezt elkerülendő ha tesztelni akarunk a main::main()-t kommentezzük, ha futtatni a programot, akkor ezt. Természetesen parancsosrból simán lehet fordítani / futtatni mindkettőt
 
 #include "catch.hpp"
 #include "../reader.h"

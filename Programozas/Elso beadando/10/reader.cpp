@@ -6,10 +6,12 @@
 
 using namespace std;
 
+//Pozitív madárszámot tudunk csak elfogadni
 bool validateNumber(const int &number) {
     return number >= 0;
 }
 
+//Beolvasunk egy adatot a konzolról, és validáljuk hogy az nekünk megfelelő-e
 int readIntFromConsole() {
     int number;
     bool error;
@@ -27,7 +29,7 @@ int readIntFromConsole() {
     return number;
 }
 
-
+//Beolvassuk a madarak előfordulását a konzolról
 vector<vector<int> > readFromConsole() {
     cout << "Please define the lines in the file: ";
     int lines = readIntFromConsole();
@@ -49,6 +51,8 @@ vector<vector<int> > readFromConsole() {
 
     return data;
 }
+
+//Beolvassuk a madarak előfordulását egy fájlból
 vector<vector<int> > readFromFile(const string &fileName) {
     ifstream file(fileName.c_str());
     if(file.fail()) {
@@ -67,6 +71,7 @@ vector<vector<int> > readFromFile(const string &fileName) {
     return data;
 }
 
+//Egy fájl sorát átkonvertáljuk vectorrá hogy jobban tudjuk kezelni
 vector<int> convertLineToVector(const string &line) {
     stringstream ss(line);
     vector<int> tokens;
