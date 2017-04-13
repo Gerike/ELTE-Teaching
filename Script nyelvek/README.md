@@ -1,0 +1,1 @@
+# Old home assignments for "Script nyelvek"
